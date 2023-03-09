@@ -1,5 +1,4 @@
 #include "raylib.h"
-#include <stdio.h>
 
 int main() {
 
@@ -9,20 +8,26 @@ int main() {
   InitWindow(800, 500, "GIP");
   SetTargetFPS(60);
 
-  // randomise the value of the random_alphabet input, and print it to the
-  // screen with drawtext void function
-  int random_alphabet = GetRandomValue(1, 26);
-
   char alphabet_holder[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
                               'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
                               's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
+  int random_alphabet = GetRandomValue(0, 25);
+  char text_message[2] = {alphabet_holder[random_alphabet], '\0'};
+
   while (!WindowShouldClose()) {
+
+    if (IsKeyPressed(KEY_A)) {
+      ClearBackground(RAYWHITE);
+      DrawText("sex", 400, 250, 40, LIGHTGRAY);
+    }
 
     BeginDrawing();
     ClearBackground(RAYWHITE);
 
-    DrawCircle(character_pos[0], character_pos[1], 20.0, MAGENTA);
+    DrawText(text_message, 400, 250, 40,
+             LIGHTGRAY); // takes a String (character array) as an argument, not
+                         // a char data type
 
     EndDrawing();
   }
