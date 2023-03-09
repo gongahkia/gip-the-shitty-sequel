@@ -13,13 +13,15 @@ int main() {
                               's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
   int random_alphabet = GetRandomValue(0, 25);
-  char text_message[2] = {alphabet_holder[random_alphabet], '\0'};
 
   while (!WindowShouldClose()) {
 
-    if (IsKeyPressed(KEY_A)) {
-      ClearBackground(RAYWHITE);
-      DrawText("sex", 400, 250, 40, LIGHTGRAY);
+    char text_message[2] = {alphabet_holder[random_alphabet], '\0'};
+
+    if (IsKeyPressed(65)) {
+      random_alphabet = GetRandomValue(
+          0,
+          25); // assign an integer value to the key type (eg KEY_A is int 65)
     }
 
     BeginDrawing();

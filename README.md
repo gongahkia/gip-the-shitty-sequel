@@ -17,12 +17,12 @@ However, as I will surely butcher the masterpiece that is the original, I have o
 * compartmentalize each phase and aspect of the game into a different `.c` file to allow for easier refactoring
 * user input (keyboard buttons) to be **randomly generated** as rocks that can be gripped onto and inputted when climber's **hand** within a certain radius of the hold
 * bird enemy that randomly harasses climber character, providing obstruction from reaching usable hold
-* figure out the **math** to simulate body part movement and realistic-ish momentum (connected by joints), with *dangling* and *swinging*
+* figure out the **math** to simulate body part movement and realistic momentum (connected by joints), with *dangling* and *swinging*
 * *timer* and *current climber height count* which acts as the player's score
 * *scaling difficulty*, as the climber goes higher, holds are spawned further apart
 * some ending *cutscene*/ *prize*
 
-> *Edit on your 9/3/2023:* I have given up. This is bloody difficult. I feel like a caveman smashing blocks together. I will return to this when I have a few years of experience under my belt.
+> *Edit on 9/3/2023:* There might be moments of weakness, but I will persevere through writing this in C.
 
 ---
 
