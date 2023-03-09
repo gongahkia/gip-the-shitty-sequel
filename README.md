@@ -113,6 +113,12 @@ cd main-game
 cc main.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -o "gip-game"
 ```
 
+> Note that for MacOS, the command to compile the game is slightly different. Run the following.
+>
+> ```bash
+> cc main.c `pkg-config --libs --cflags raylib` -o "gip-game"
+> ```
+
 6. To run the game, we will run the following command.
 
 ```bash
