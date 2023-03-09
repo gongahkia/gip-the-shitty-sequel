@@ -22,7 +22,7 @@ However, as I will surely butcher the masterpiece that is the original, I have o
 * *scaling difficulty*, as the climber goes higher, holds are spawned further apart
 * some ending *cutscene*/ *prize*
 
-> *Edit on 8/3/2023:* I will **not** be using any language wrappers *(such as the crutch that is C++)* in the coding of GIP. It will be a purely C project. Let's see how long I take to crack.
+> *Edit on your 9/3/2023:* I have given up. This is bloody difficult. I feel like a caveman smashing blocks together. I will return to this when I have a few years of experience under my belt.
 
 ---
 
