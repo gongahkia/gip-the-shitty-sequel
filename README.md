@@ -2,6 +2,8 @@
 
 ![](https://iheartcats.com/wp-content/uploads/2020/09/15871902_1099453596832566_3557635749273180674_n-e1599916073805.jpg)
 
+> *Edit on 14/3/2023*: I will be archiving this project until I can figure out what game engine I want to write it in. While Raylib is by no means a bad option, I am not technically competent enough to begin writing this in `C`.
+
 [**Rock climbing**](https://images.genius.com/d1cde25d34e647d7ffacefcea11fc287.1000x1000x1.jpg) is one of my core pastimes. So is watching people play [*frustrating games*](https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/) with unusual mechanics.
 
 As such, after learning about the wonderful [***Raylib***](https://github.com/raysan5/raylib), which both gave me the **cool hackerman edge** of working in an IDE to code most of my game, whilst abstracting away the most **annoying** parts of writing a game engine from scratch in SDL2 and OpenGL, it was simply a matter of time before I attempted a GIRP remake in Raylib. *(It was this or [QWOP](http://www.foddy.net/Athletics.html) man, and that game's kinematics seem even more demonic to work out.)*
